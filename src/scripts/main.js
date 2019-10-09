@@ -17,3 +17,7 @@ const removeDashed = document.querySelector(".dashed")
 console.log("This is dashed", removeDashed)
 removeDashed.classList.remove("dashed")
 console.log("This should have dashed removed", removeDashed)
+
+const addGoldenRod = document.querySelector(".article__footer")
+addGoldenRod.classList.add("goldenrod")
+console.log("This should have goldenrod added", addGoldenRod)
